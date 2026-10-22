@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wirda Batik Surakarta</title>
+    <title>Anwar Cahaya Batik – Batik Asli Sragen, Elegan &amp; Berkelas</title>
+    <meta name="description" content="Anwar Cahaya Batik menghadirkan koleksi batik asli Sragen premium – kemeja pria, blus wanita, dan kain batik berkualitas tinggi. Pesan mudah via WhatsApp.">
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,53 +19,472 @@
 </head>
 <body>
 
-    <!-- Header Section -->
-    <header class="navbar">
+    <!-- ===== NAVBAR ===== -->
+    <header class="navbar" id="navbar">
         <div class="container nav-container">
-            <div class="logo">
-                <img src="https://via.placeholder.com/150x40?text=WIRDA+BATIK" alt="Wirda Batik Logo">
-            </div>
-            <nav class="nav-links">
-                <a href="#" class="active">Koleksi Utama</a>
-                <a href="#">Koleksi Mingguan</a>
-                <a href="#">Cara Memesan</a>
-                <a href="#">Tentang Kami</a>
-                <a href="#">Testimoni</a>
+            <a href="#" class="logo">
+                <img src="img/logo.jpg" alt="Logo Anwar Cahaya Batik" class="logo-img">
+                <span class="logo-text">ANWAR<span class="logo-accent">CAHAYA</span>BATIK</span>
+            </a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#koleksi" class="active">Koleksi</a>
+                <a href="#keunggulan">Keunggulan</a>
+                <a href="#cara-belanja">Cara Belanja</a>
+                <a href="#tentang-kami">Tentang Kami</a>
+                <a href="#testimoni">Testimoni</a>
             </nav>
             <div class="nav-action">
-                <a href="#" class="btn btn-green"><i class="ph ph-whatsapp-logo"></i> PESAN VIA WHATSAPP</a>
+                <a href="https://wa.me/6287726984278?text=Halo%20Anwar%20Cahaya%20Batik%2C%20saya%20ingin%20melihat%20koleksi%20batik%20terbaru." class="btn btn-green" id="nav-wa-btn" target="_blank" rel="noopener">
+                    <i class="ph ph-whatsapp-logo"></i> PESAN VIA WA
+                </a>
             </div>
+            <button class="hamburger" id="hamburger" aria-label="Buka Menu">
+                <i class="ph ph-list"></i>
+            </button>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero container">
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero container" id="hero">
         <div class="hero-content">
-            <span class="badge">EKSKLUSIF BATIK TULIS ASLI SURAKARTA, BUKAN CAP ATAU PRINTING</span>
-            <h1>Keagungan Wastra Surakarta dalam Balutan <br><span class="highlight">Sutra Mahakarya</span></h1>
-            <p>Karya adiluhung perajin canting legendaris Kauman & Laweyan Surakarta. Koleksi batik sutra mahakarya ini diciptakan tunggal (1 of 1), sarat filosofi luhur Solo, dan siap dipesan via WhatsApp untuk Anda.</p>
+            <span class="badge">✦ BATIK ASLI SRAGEN – KATUN PREMIUM &amp; GARANSI ANTI LUNTUR ✦</span>
+            <h1>Tampil <span class="highlight">Memukau</span> di Setiap Kesempatan dengan Batik Sragen Pilihan</h1>
+            <p>Dari ruang rapat hingga acara istimewa — koleksi Anwar Cahaya Batik hadir dalam motif yang memesona, bahan katun premium pilihan, dan warna yang terjamin tidak luntur. Jadilah yang pertama tampil beda.</p>
             <div class="hero-actions">
-                <a href="#" class="btn btn-green"><i class="ph ph-whatsapp-logo"></i> Konsultasi & Pesan via WhatsApp</a>
-                <a href="#" class="btn btn-outline">Eksplorasi Katalog <i class="ph ph-arrow-right"></i></a>
+                <a href="#koleksi" class="btn btn-gold" id="hero-catalog-btn">
+                    Lihat Koleksi <i class="ph ph-arrow-right"></i>
+                </a>
+                <a href="https://wa.me/6287726984278?text=Halo%20Anwar%20Cahaya%20Batik%2C%20saya%20ingin%20melihat%20koleksi%20batik%20terbaru." class="btn btn-outline" id="hero-wa-btn" target="_blank" rel="noopener">
+                    <i class="ph ph-whatsapp-logo"></i> Konsultasi Gratis
+                </a>
             </div>
-            
             <div class="hero-stats">
                 <div class="stat-item">
+                    <h4>500+</h4>
+                    <p>MOTIF EKSKLUSIF</p>
+                </div>
+                <div class="stat-item">
                     <h4>100%</h4>
-                    <p>BATIK TULIS MURNI</p>
+                    <p>ASLI SRAGEN</p>
                 </div>
                 <div class="stat-item">
-                    <h4>3-6 Bln</h4>
-                    <p>PROSES CANTING</p>
-                </div>
-                <div class="stat-item">
-                    <h4>1 of 1</h4>
-                    <p>EDISI EKSKLUSIF</p>
+                    <h4>Garansi</h4>
+                    <p>ANTI LUNTUR</p>
                 </div>
             </div>
         </div>
         <div class="hero-image">
-            <img src="https://images.unsplash.com/photo-1594246876356-9b76c8c4e402?q=80&w=1000&auto=format&fit=crop" alt="Batik Model">
+            <img src="img/koleksi-batik.jpeg" alt="Koleksi Batik Anwar Cahaya Sragen">
+        </div>
+    </section>
+
+    <!-- ===== KEUNGGULAN / USP ===== -->
+    <section class="features" id="keunggulan">
+        <div class="container text-center">
+            <span class="subtitle">KEUNGGULAN BRAND KAMI</span>
+            <h2>Mengapa Memilih Anwar Cahaya Batik?</h2>
+            <p class="features-desc">Kami tidak sekadar menjual kain. Kami menghadirkan karya budaya yang tampil elegan, nyaman dipakai, dan bertahan lama — untuk Anda yang menghargai kualitas sejati.</p>
+            <div class="features-grid">
+                <div class="feature-card" id="usp-1">
+                    <div class="icon-wrapper"><i class="ph ph-t-shirt"></i></div>
+                    <h3>Katun Premium Pilihan</h3>
+                    <p>Bahan katun berkualitas tinggi — adem, breathable, dan nyaman sepanjang hari. Cocok untuk kerja, acara resmi, maupun hangout kasual.</p>
+                </div>
+                <div class="feature-card" id="usp-2">
+                    <div class="icon-wrapper"><i class="ph ph-shield-check"></i></div>
+                    <h3>Garansi Anti Luntur</h3>
+                    <p>Setiap produk kami menggunakan pewarna tekstil berkualitas tinggi yang tahan cuci berulang kali. Kami berani memberikan jaminan warna tetap cerah.</p>
+                </div>
+                <div class="feature-card" id="usp-3">
+                    <div class="icon-wrapper"><i class="ph ph-map-pin"></i></div>
+                    <h3>Asli Sragen</h3>
+                    <p>Langsung dari sentra batik Bumi Sukowati Sragen. Dikerjakan oleh pengrajin berpengalaman turun-temurun dengan mutu terbaik.</p>
+                </div>
+                <div class="feature-card" id="usp-4">
+                    <div class="icon-wrapper"><i class="ph ph-star"></i></div>
+                    <h3>Desain Modern &amp; Kekinian</h3>
+                    <p>Perpaduan motif batik tradisional dengan sentuhan desain kontemporer — sempurna untuk anak muda dan profesional yang ingin tampil autentik namun tetap stylish.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CATALOG SECTION ===== -->
+    <section class="catalog bg-neutral" id="koleksi">
+        <div class="container">
+            <div class="catalog-header">
+                <div>
+                    <span class="subtitle">KOLEKSI TERBARU 2025</span>
+                    <h2>Katalog Pilihan</h2>
+                    <p>Temukan koleksi batik terbaik kami. Klik tombol WhatsApp di bawah setiap produk untuk langsung chat dan pesan  mudah, cepat, dan terpercaya.</p>
+                </div>
+                <div class="catalog-filters" id="catalog-filters">
+                    <button class="filter-btn active" data-filter="semua">Semua</button>
+                    <button class="filter-btn" data-filter="kemeja-pria">Kemeja Pria</button>
+                    <button class="filter-btn" data-filter="blus-wanita">Blus Wanita</button>
+                    <button class="filter-btn" data-filter="kain">Kain Batik</button>
+                </div>
+            </div>
+
+            <div class="product-grid" id="product-grid">
+
+                <!-- Produk 1: Kemeja Pria -->
+                <div class="product-card" data-category="kemeja-pria" id="produk-1">
+                    <div class="product-image">
+                        <img src="img/koleksi-batik.jpeg" alt="Kemeja Batik Pria Mega Mendung Navy">
+                        <span class="badge-tag dark">BEST SELLER</span>
+                        <span class="badge-tag gold">Kemeja Pria</span>
+                    </div>
+                    <div class="product-info">
+                        <span class="category">MOTIF MEGA MENDUNG — SIMBOL KESABARAN &amp; KETEGUHAN</span>
+                        <h3>Kemeja Batik Mega Mendung Navy</h3>
+                        <p>Motif awan mega mendung khas Sragen, dominasi warna navy &amp; putih gading yang timeless. Cocok untuk rapat dan acara formal.</p>
+                        <div class="product-specs">
+                            <span><i class="ph ph-diamond"></i> Katun Premium 40s</span>
+                            <span><i class="ph ph-paint-brush"></i> Batik Cap</span>
+                            <span><i class="ph ph-ruler"></i> M, L, XL, XXL</span>
+                        </div>
+                        <div class="price-row">
+                            <div>
+                                <span class="old-price">Rp 385.000</span>
+                                <span class="price">Rp 299.000</span>
+                            </div>
+                            <span class="status available">Tersedia</span>
+                        </div>
+                        <a href="https://wa.me/6287726984278?text=Halo%20Anwar%20Cahaya%20Batik%2C%20saya%20tertarik%20dengan%20*Kemeja%20Batik%20Mega%20Mendung%20Navy*%20(Kode%3A%20ACB-KP-001).%20Boleh%20info%20ukuran%20dan%20cara%20pesan%3F%20%F0%9F%99%8F" class="btn btn-green btn-full" id="wa-produk-1" target="_blank" rel="noopener">
+                            <i class="ph ph-whatsapp-logo"></i> PESAN VIA WHATSAPP
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Produk 2: Blus Wanita -->
+                <div class="product-card" data-category="blus-wanita" id="produk-2">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?q=80&w=500&auto=format&fit=crop" alt="Blus Batik Wanita Bunga Pesisir">
+                        <span class="badge-tag dark">NEW ARRIVAL</span>
+                        <span class="badge-tag gold">Blus Wanita</span>
+                    </div>
+                    <div class="product-info">
+                        <span class="category">MOTIF BUNGA PESISIR — KEANGGUNAN WASTRA SRAGEN</span>
+                        <h3>Blus Batik Bunga Pesisir Coral</h3>
+                        <p>Perpaduan warna coral hangat dengan motif bunga abstrak khas pesisir utara. Potongan modern yang flattering dan elegan untuk wanita aktif.</p>
+                        <div class="product-specs">
+                            <span><i class="ph ph-diamond"></i> Katun Rayon Halus</span>
+                            <span><i class="ph ph-paint-brush"></i> Batik Cap</span>
+                            <span><i class="ph ph-ruler"></i> M, L, XL, XXL</span>
+                        </div>
+                        <div class="price-row">
+                            <div>
+                                <span class="old-price">Rp 420.000</span>
+                                <span class="price">Rp 329.000</span>
+                            </div>
+                            <span class="status available">Tersedia</span>
+                        </div>
+                        <a href="https://wa.me/6287726984278?text=Halo%20Anwar%20Cahaya%20Batik%2C%20saya%20tertarik%20dengan%20*Blus%20Batik%20Bunga%20Pesisir%20Coral*%20(Kode%3A%20ACB-BW-001).%20Boleh%20info%20ukuran%20dan%20cara%20pesan%3F%20%F0%9F%99%8F" class="btn btn-green btn-full" id="wa-produk-2" target="_blank" rel="noopener">
+                            <i class="ph ph-whatsapp-logo"></i> PESAN VIA WHATSAPP
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Produk 3: Kemeja Pria -->
+                <div class="product-card" data-category="kemeja-pria" id="produk-3">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1617952739348-87f0a2abb4c0?q=80&w=500&auto=format&fit=crop" alt="Kemeja Batik Pria Parang Klasik">
+                        <span class="badge-tag dark">TERLARIS</span>
+                        <span class="badge-tag gold">Kemeja Pria</span>
+                    </div>
+                    <div class="product-info">
+                        <span class="category">MOTIF PARANG KLASIK — FILOSOFI KETEGASAN PEMIMPIN</span>
+                        <h3>Kemeja Batik Parang Klasik Coklat</h3>
+                        <p>Motif parang diagonal yang melambangkan semangat tak pernah menyerah, dalam palet warna coklat tanah &amp; emas yang hangat dan berwibawa.</p>
+                        <div class="product-specs">
+                            <span><i class="ph ph-diamond"></i> Katun Premium 40s</span>
+                            <span><i class="ph ph-paint-brush"></i> Batik Cap Tulis</span>
+                            <span><i class="ph ph-ruler"></i> M, L, XL, XXL</span>
+                        </div>
+                        <div class="price-row">
+                            <div>
+                                <span class="old-price">Rp 345.000</span>
+                                <span class="price">Rp 265.000</span>
+                            </div>
+                            <span class="status available">Tersedia</span>
+                        </div>
+                        <a href="https://wa.me/6287726984278?text=Halo%20Anwar%20Cahaya%20Batik%2C%20saya%20tertarik%20dengan%20*Kemeja%20Batik%20Parang%20Klasik%20Coklat*%20(Kode%3A%20ACB-KP-002).%20Boleh%20info%20ukuran%20dan%20cara%20pesan%3F%20%F0%9F%99%8F" class="btn btn-green btn-full" id="wa-produk-3" target="_blank" rel="noopener">
+                            <i class="ph ph-whatsapp-logo"></i> PESAN VIA WHATSAPP
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Produk 4: Kain -->
+                <div class="product-card" data-category="kain" id="produk-4">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1601004455850-7164962c45f9?q=80&w=500&auto=format&fit=crop" alt="Kain Batik Sukowati Sragen">
+                        <span class="badge-tag dark">KAIN PREMIUM</span>
+                        <span class="badge-tag gold">Kain Batik</span>
+                    </div>
+                    <div class="product-info">
+                        <span class="category">MOTIF JLAMPRANG — WARISAN BUMI SUKOWATI SRAGEN</span>
+                        <h3>Kain Batik Jlamprang Emas Hitam</h3>
+                        <p>Motif geometris segi empat khas Sragen dengan nuansa hitam pekat dan aksen emas menawan. Cocok untuk baju formal, seragam, atau kain lilit.</p>
+                        <div class="product-specs">
+                            <span><i class="ph ph-diamond"></i> Katun Primissima</span>
+                            <span><i class="ph ph-paint-brush"></i> Batik Tulis</span>
+                            <span><i class="ph ph-arrows-out"></i> 2m × 1,15m</span>
+                        </div>
+                        <div class="price-row">
+                            <div>
+                                <span class="old-price">Rp 580.000</span>
+                                <span class="price">Rp 449.000</span>
+                            </div>
+                            <span class="status available">Tersedia</span>
+                        </div>
+                        <a href="https://wa.me/6287726984278?text=Halo%20Anwar%20Cahaya%20Batik%2C%20saya%20tertarik%20dengan%20*Kain%20Batik%20Jlamprang%20Emas%20Hitam*%20(Kode%3A%20ACB-KB-001).%20Boleh%20info%20ketersediaan%20dan%20cara%20pesan%3F%20%F0%9F%99%8F" class="btn btn-green btn-full" id="wa-produk-4" target="_blank" rel="noopener">
+                            <i class="ph ph-whatsapp-logo"></i> PESAN VIA WHATSAPP
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Produk 5: Blus Wanita -->
+                <div class="product-card" data-category="blus-wanita" id="produk-5">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1594938298603-c8148c4b4aac?q=80&w=500&auto=format&fit=crop" alt="Blus Batik Wanita Kawung Modern">
+                        <span class="badge-tag dark">FAVORIT</span>
+                        <span class="badge-tag gold">Blus Wanita</span>
+                    </div>
+                    <div class="product-info">
+                        <span class="category">MOTIF KAWUNG MODERN — ELEGAN &amp; PERCAYA DIRI</span>
+                        <h3>Blus Batik Kawung Modern Maroon</h3>
+                        <p>Interpretasi segar motif kawung klasik dalam warna maroon eksklusif. Potongan A-line yang flowy dan feminin, sempurna untuk meeting hingga kondangan.</p>
+                        <div class="product-specs">
+                            <span><i class="ph ph-diamond"></i> Katun Rayon Premium</span>
+                            <span><i class="ph ph-paint-brush"></i> Batik Cap</span>
+                            <span><i class="ph ph-ruler"></i> M, L, XL, XXL</span>
+                        </div>
+                        <div class="price-row">
+                            <div>
+                                <span class="old-price">Rp 395.000</span>
+                                <span class="price">Rp 310.000</span>
+                            </div>
+                            <span class="status available">Tersedia</span>
+                        </div>
+                        <a href="https://wa.me/6287726984278?text=Halo%20Anwar%20Cahaya%20Batik%2C%20saya%20tertarik%20dengan%20*Blus%20Batik%20Kawung%20Modern%20Maroon*%20(Kode%3A%20ACB-BW-002).%20Boleh%20info%20ukuran%20dan%20cara%20pesan%3F%20%F0%9F%99%8F" class="btn btn-green btn-full" id="wa-produk-5" target="_blank" rel="noopener">
+                            <i class="ph ph-whatsapp-logo"></i> PESAN VIA WHATSAPP
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Produk 6: Kain -->
+                <div class="product-card" data-category="kain" id="produk-6">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1600091166971-7f9faad6c498?q=80&w=500&auto=format&fit=crop" alt="Kain Batik Sogan Lereng">
+                        <span class="badge-tag dark">EDISI TERBATAS</span>
+                        <span class="badge-tag gold">Kain Batik</span>
+                    </div>
+                    <div class="product-info">
+                        <span class="category">MOTIF SOGAN LERENG — KEINDAHAN KLASIK NUSANTARA</span>
+                        <h3>Kain Batik Sogan Lereng Eksklusif</h3>
+                        <p>Motif lereng diagonal dengan warna soga coklat hangat khas batik keraton. Pewarnaan berlapis menghasilkan gradasi warna alami yang menawan.</p>
+                        <div class="product-specs">
+                            <span><i class="ph ph-diamond"></i> Mori Primissima</span>
+                            <span><i class="ph ph-paint-brush"></i> Batik Tulis</span>
+                            <span><i class="ph ph-arrows-out"></i> 2,5m × 1,15m</span>
+                        </div>
+                        <div class="price-row">
+                            <div>
+                                <span class="old-price">Rp 750.000</span>
+                                <span class="price">Rp 599.000</span>
+                            </div>
+                            <span class="status limited">Stok Terbatas</span>
+                        </div>
+                        <a href="https://wa.me/6287726984278?text=Halo%20Anwar%20Cahaya%20Batik%2C%20saya%20tertarik%20dengan%20*Kain%20Batik%20Sogan%20Lereng%20Eksklusif*%20(Kode%3A%20ACB-KB-002).%20Boleh%20info%20ketersediaan%20dan%20cara%20pesan%3F%20%F0%9F%99%8F" class="btn btn-green btn-full" id="wa-produk-6" target="_blank" rel="noopener">
+                            <i class="ph ph-whatsapp-logo"></i> PESAN VIA WHATSAPP
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Produk 7: Kemeja Pria -->
+                <div class="product-card" data-category="kemeja-pria" id="produk-7">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1598033129183-c4f50c736f10?q=80&w=500&auto=format&fit=crop" alt="Kemeja Batik Slim Fit Sido Mukti">
+                        <span class="badge-tag dark">PILIHAN MUDA</span>
+                        <span class="badge-tag gold">Kemeja Pria</span>
+                    </div>
+                    <div class="product-info">
+                        <span class="category">MOTIF SIDO MUKTI — DOA KEMAKMURAN &amp; KESUKSESAN</span>
+                        <h3>Kemeja Batik Slim Fit Sido Mukti</h3>
+                        <p>Potongan slim fit modern, hadir dalam motif Sido Mukti bermakna kemakmuran. Warna hitam elegan dengan aksen emas — tampil beda di kantor atau event.</p>
+                        <div class="product-specs">
+                            <span><i class="ph ph-diamond"></i> Katun Slub Premium</span>
+                            <span><i class="ph ph-paint-brush"></i> Batik Cap Tulis</span>
+                            <span><i class="ph ph-ruler"></i> M, L, XL, XXL</span>
+                        </div>
+                        <div class="price-row">
+                            <div>
+                                <span class="old-price">Rp 425.000</span>
+                                <span class="price">Rp 339.000</span>
+                            </div>
+                            <span class="status available">Tersedia</span>
+                        </div>
+                        <a href="https://wa.me/6287726984278?text=Halo%20Anwar%20Cahaya%20Batik%2C%20saya%20tertarik%20dengan%20*Kemeja%20Batik%20Slim%20Fit%20Sido%20Mukti*%20(Kode%3A%20ACB-KP-003).%20Boleh%20info%20ukuran%20dan%20cara%20pesan%3F%20%F0%9F%99%8F" class="btn btn-green btn-full" id="wa-produk-7" target="_blank" rel="noopener">
+                            <i class="ph ph-whatsapp-logo"></i> PESAN VIA WHATSAPP
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Produk 8: Blus Wanita -->
+                <div class="product-card" data-category="blus-wanita" id="produk-8">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?q=80&w=500&auto=format&fit=crop" alt="Tunik Batik Truntum Emas Hitam">
+                        <span class="badge-tag dark">PREMIUM</span>
+                        <span class="badge-tag gold">Blus Wanita</span>
+                    </div>
+                    <div class="product-info">
+                        <span class="category">MOTIF TRUNTUM — LAMBANG CINTA YANG TULUS &amp; ABADI</span>
+                        <h3>Tunik Batik Truntum Emas Hitam</h3>
+                        <p>Motif truntum simbol cinta tulus tampil memukau dalam paduan hitam malam dan aksen emas. Potongan tunik panjang yang anggun untuk kondangan hingga kerja.</p>
+                        <div class="product-specs">
+                            <span><i class="ph ph-diamond"></i> Katun Premium Furing</span>
+                            <span><i class="ph ph-paint-brush"></i> Batik Tulis</span>
+                            <span><i class="ph ph-ruler"></i> M, L, XL, XXL</span>
+                        </div>
+                        <div class="price-row">
+                            <div>
+                                <span class="old-price">Rp 550.000</span>
+                                <span class="price">Rp 429.000</span>
+                            </div>
+                            <span class="status available">Tersedia</span>
+                        </div>
+                        <a href="https://wa.me/6287726984278?text=Halo%20Anwar%20Cahaya%20Batik%2C%20saya%20tertarik%20dengan%20*Tunik%20Batik%20Truntum%20Emas%20Hitam*%20(Kode%3A%20ACB-BW-003).%20Boleh%20info%20ukuran%20dan%20cara%20pesan%3F%20%F0%9F%99%8F" class="btn btn-green btn-full" id="wa-produk-8" target="_blank" rel="noopener">
+                            <i class="ph ph-whatsapp-logo"></i> PESAN VIA WHATSAPP
+                        </a>
+                    </div>
+                </div>
+
+            </div><!-- end product-grid -->
+
+            <!-- Seragam / Custom Banner -->
+            <div class="custom-banner" id="custom-banner">
+                <div class="banner-content">
+                    <div class="icon-circle"><i class="ph ph-users-three"></i></div>
+                    <div>
+                        <h3>Butuh Seragam Batik Kantor atau Keluarga?</h3>
+                        <p>Kami melayani pesanan seragam batik massal dengan harga khusus grosir. Motif bisa dikustom sesuai permintaan. Minimum order 10 pcs. Konsultasi gratis!</p>
+                    </div>
+                </div>
+                <a href="https://wa.me/6287726984278?text=Halo%20Anwar%20Cahaya%20Batik%2C%20saya%20ingin%20konsultasi%20*seragam%20batik%20kustom*%20untuk%20kantor%2Fkeluarga.%20Bisa%20dibantu%3F%20%F0%9F%99%8F" class="btn btn-gold" id="seragam-btn" target="_blank" rel="noopener">
+                    KONSULTASI SERAGAM
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CARA BELANJA ===== -->
+    <section class="how-to" id="cara-belanja">
+        <div class="container text-center">
+            <span class="subtitle">MUDAH &amp; CEPAT</span>
+            <h2>4 Langkah Mudah Belanja via WhatsApp</h2>
+            <p class="features-desc">Tidak perlu ribet daftar akun atau masukkan kartu kredit. Cukup pilih, chat, bayar, dan terima — sesederhana itu berbelanja di Anwar Cahaya Batik.</p>
+            <div class="steps-grid">
+                <div class="step-card" id="step-1">
+                    <div class="step-number">1</div>
+                    <div class="icon-wrapper"><i class="ph ph-magnifying-glass"></i></div>
+                    <h3>Pilih Koleksi Favorit</h3>
+                    <p>Jelajahi katalog kami di website ini. Temukan motif, warna, dan model yang sesuai dengan gaya dan kebutuhan Anda.</p>
+                </div>
+                <div class="step-card" id="step-2">
+                    <div class="step-number">2</div>
+                    <div class="icon-wrapper"><i class="ph ph-whatsapp-logo"></i></div>
+                    <h3>Klik Tombol WA</h3>
+                    <p>Tekan tombol hijau "Pesan via WhatsApp". Pesan otomatis sudah terisi lengkap dengan nama produk — tinggal kirim!</p>
+                </div>
+                <div class="step-card" id="step-3">
+                    <div class="step-number">3</div>
+                    <div class="icon-wrapper"><i class="ph ph-chat-circle-dots"></i></div>
+                    <h3>Konfirmasi &amp; Bayar</h3>
+                    <p>Tim kami siap membantu konfirmasi stok, ukuran, dan opsi pengiriman. Pembayaran mudah via transfer bank atau e-wallet.</p>
+                </div>
+                <div class="step-card" id="step-4">
+                    <div class="step-number">4</div>
+                    <div class="icon-wrapper"><i class="ph ph-package"></i></div>
+                    <h3>Terima di Pintu Anda</h3>
+                    <p>Dikemas rapi dan dikirim dengan jasa pengiriman terpercaya. Gratis ongkir untuk pembelian di atas Rp 500.000 ke seluruh Indonesia!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TENTANG KAMI ===== -->
+    <section class="philosophy container" id="tentang-kami">
+        <div class="philosophy-grid">
+            <div class="quote-card bg-primary text-white">
+                <blockquote>"Batik bukan sekadar kain. Ia adalah doa yang ditorehkan tangan, cerita yang diwariskan jiwa, dan identitas yang dikenakan dengan bangga."</blockquote>
+                <div class="author">
+                    <div class="avatar">AC</div>
+                    <div>
+                        <strong>H. Anwar Cahaya</strong>
+                        <span>Pendiri — Pengrajin Batik Generasi Ketiga, Sragen</span>
+                    </div>
+                </div>
+            </div>
+            <div class="philosophy-content">
+                <span class="subtitle">TENTANG KAMI</span>
+                <h2>Tiga Generasi Merawat Warisan Batik Sragen</h2>
+                <p>Anwar Cahaya Batik lahir dari kecintaan mendalam terhadap kain Nusantara. Berawal dari sentra kerajinan batik di Sragen, kini kami telah melayani ribuan pelanggan di seluruh Indonesia — dari pegawai kantoran hingga para pecinta fashion muda yang ingin tampil beda dan autentik.</p>
+                <p>Kami percaya bahwa batik adalah milik semua. Karena itu, setiap koleksi kami dirancang dengan cermat — memadukan motif tradisional yang kaya filosofi dengan sentuhan desain modern, menggunakan bahan katun premium yang nyaman dipakai sepanjang hari, dan pewarna berkualitas tinggi yang <strong>terjamin tidak luntur</strong>.</p>
+                <p>Setiap lembar yang Anda beli adalah bentuk nyata dukungan kepada perajin lokal Sragen dan kelestarian budaya batik Indonesia.</p>
+                <a href="https://wa.me/6287726984278?text=Halo%2C%20saya%20ingin%20mengenal%20lebih%20jauh%20Anwar%20Cahaya%20Batik%20dan%20koleksi%20yang%20tersedia." class="link-btn" id="about-wa-btn" target="_blank" rel="noopener">
+                    CHAT LANGSUNG DENGAN KAMI <i class="ph ph-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONI ===== -->
+    <section class="testimonials bg-neutral" id="testimoni">
+        <div class="container">
+            <div class="text-center">
+                <span class="subtitle">APA KATA MEREKA</span>
+                <h2>Dipercaya Ribuan Pelanggan Setia</h2>
+                <p class="features-desc">Ulasan jujur dari pelanggan nyata kami — dari profesional kantoran, ibu rumah tangga, hingga anak muda yang bangga tampil batik.</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testi-card" id="testi-1">
+                    <div class="stars">★★★★★</div>
+                    <p>"Kemeja Mega Mendung-nya bagus banget! Bahannya adem dan tidak panas sama sekali meski dipakai seharian di kantor ber-AC. Coraknya bikin saya dilirik banyak rekan saat rapat. Definitely worth it!"</p>
+                    <strong>Budi Santoso, S.E.</strong>
+                    <span>Marketing Manager — Jakarta Selatan</span>
+                </div>
+                <div class="testi-card" id="testi-2">
+                    <div class="stars">★★★★★</div>
+                    <p>"Pesan via WhatsApp ternyata gampang banget. Admin-nya responsif, langsung bantu pilih ukuran yang pas. Blus Kawung Maroon-nya cantik dan warnanya tidak pudar setelah dicuci berkali-kali. Garansi anti lunturnya terbukti!"</p>
+                    <strong>Siti Rahayu, S.H.</strong>
+                    <span>Notaris — Semarang</span>
+                </div>
+                <div class="testi-card" id="testi-3">
+                    <div class="stars">★★★★★</div>
+                    <p>"Sebagai anak muda yang sering ragu pakai batik karena terkesan kuno, koleksi ACB justru bikin saya percaya diri! Slim fit-nya keren, motifnya unik. Teman-teman pada tanya beli di mana, langsung aku rekomendasiin."</p>
+                    <strong>Rizky Firmansyah</strong>
+                    <span>Content Creator — Bandung</span>
+                </div>
+                <div class="testi-card" id="testi-4">
+                    <div class="stars">★★★★★</div>
+                    <p>"Pesan seragam batik untuk keluarga besar (25 pcs) untuk arisan tahunan. Hasilnya memuaskan! Jahitan rapi, kain premium, dan dikirim tepat waktu. Harga grosirnya sangat kompetitif. Terima kasih ACB!"</p>
+                    <strong>Hj. Fatimah Zahra</strong>
+                    <span>Ketua Arisan — Surabaya</span>
+                </div>
+                <div class="testi-card" id="testi-5">
+                    <div class="stars">★★★★★</div>
+                    <p>"Kain Jlamprang-nya luar biasa! Motifnya rapi dan detail. Saya jahitkan menjadi kebaya dan hasilnya elegan. Pas dipakai ke acara pernikahan banyak yang compliment. Sudah jadi langganan tetap ACB."</p>
+                    <strong>Dewi Kartini</strong>
+                    <span>Desainer Busana — Yogyakarta</span>
+                </div>
+                <div class="testi-card" id="testi-6">
+                    <div class="stars">★★★★★</div>
+                    <p>"Pengiriman ke Medan cepat dan aman. Paketnya dibungkus plastik khusus jadi kainnya tidak lecek. Pelayanan WhatsApp-nya ramah dan sabar menjawab semua pertanyaan. Highly recommended!"</p>
+                    <strong>Ahmad Fauzi</strong>
+                    <span>Pegawai Bank — Medan</span>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -106,7 +526,7 @@
             <div class="catalog-header">
                 <div>
                     <span class="subtitle">EKSKLUSIF MAHAS KARYA TERBARU</span>
-                    <h2>Katalog Pilihan & Reservasi WhatsApp</h2>
+                    <h2>Katalog Pilihan</h2>
                     <p>Setiap motif hanya tersedia 1 kain. Jika tombol WhatsApp aktif, berarti wastra masih tersedia dan Anda bisa langsung memesannya.</p>
                 </div>
                 <div class="catalog-filters">
@@ -310,43 +730,62 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" id="footer">
         <div class="container footer-grid">
             <div class="footer-brand">
                 <div class="logo">
-                    <img src="https://via.placeholder.com/150x40/ffffff/000000?text=WIRDA+BATIK" alt="Wirda Batik Logo">
+                    <img src="img/logo.jpg" alt="Logo Anwar Cahaya Batik" class="logo-img">
+                    <span class="logo-text light">ANWAR<span class="logo-accent">CAHAYA</span>BATIK</span>
                 </div>
-                <p>Wirda Batik Surakarta</p>
-                <p class="brand-desc">Merajut keagungan wastra peradaban Jawa ke ruang busana kaum elit masa kini. Koleksi otentik batik tulis 100% karya murni perajin luhur Surakarta.</p>
+                <p class="brand-tagline">Batik Asli Sragen</p>
+                <p class="brand-desc">Menghadirkan keindahan motif batik Sragen yang kaya makna ke dalam busana modern Anda. Premium, terjangkau, dan terpercaya sejak generasi ketiga.</p>
+                <div class="social-links">
+                    <a href="#" id="ig-link" aria-label="Instagram"><i class="ph ph-instagram-logo"></i></a>
+                    <a href="#" id="fb-link" aria-label="Facebook"><i class="ph ph-facebook-logo"></i></a>
+                    <a href="#" id="tiktok-link" aria-label="TikTok"><i class="ph ph-tiktok-logo"></i></a>
+                    <a href="https://wa.me/6287726984278" id="footer-wa-link" aria-label="WhatsApp" target="_blank" rel="noopener"><i class="ph ph-whatsapp-logo"></i></a>
+                </div>
             </div>
             <div class="footer-col">
-                <h4>GRIYA WIRDA SOLO</h4>
-                <p>Jl. Dr. Radjiman No. 542, Laweyan, Surakarta, Jawa Tengah<br>Buka Setiap Hari: 09:00 - 17:00 WIB</p>
-                
-                <h4 class="mt-4">ATELIER JAKARTA</h4>
-                <p>Dharmawangsa Square Lt. 2 (Kunjungan Khusus by Appt)<br>Jakarta Selatan</p>
+                <h4>SENTRA PRODUKSI</h4>
+                <p>Sentra Industri Batik Surakarta,<br>Sragen, Jawa Tengah 57283<br>Senin–Sabtu: 08.00–23.59 WIB</p>
+                <h4 class="mt-4">PEMESANAN ONLINE</h4>
+                <a href="https://wa.me/6287726984278" class="wa-link" target="_blank" rel="noopener"><i class="ph ph-whatsapp-logo"></i> +62 877-2698-4278</a>
             </div>
             <div class="footer-col">
-                <h4>KONSULTASI WA (VIP)</h4>
-                <p>Kurator Pribadi Kami siap membantu Anda. Silakan hubungi kami untuk informasi detail pemesanan kain.</p>
-                <a href="#" class="wa-link"><i class="ph ph-whatsapp-logo"></i> +62 812-3456-7890 (Chat Only)</a>
+                <h4>NAVIGASI</h4>
+                <ul class="footer-links">
+                    <li><a href="#koleksi"><i class="ph ph-caret-right"></i> Lihat Koleksi</a></li>
+                    <li><a href="#keunggulan"><i class="ph ph-caret-right"></i> Keunggulan Kami</a></li>
+                    <li><a href="#cara-belanja"><i class="ph ph-caret-right"></i> Cara Belanja</a></li>
+                    <li><a href="#tentang-kami"><i class="ph ph-caret-right"></i> Tentang Kami</a></li>
+                    <li><a href="#testimoni"><i class="ph ph-caret-right"></i> Testimoni</a></li>
+                </ul>
             </div>
             <div class="footer-col">
                 <h4>JAMINAN KAMI</h4>
                 <ul class="footer-links">
-                    <li><i class="ph ph-check"></i> 100% Batik Tulis Asli (Bukan Print)</li>
-                    <li><i class="ph ph-check"></i> Bahan Premium (ATBM, Dobby)</li>
-                    <li><i class="ph ph-check"></i> Garansi Pengembalian Kain</li>
-                    <li><i class="ph ph-check"></i> Free Ongkir Seluruh NKRI</li>
+                    <li><i class="ph ph-check-circle"></i> 100% Batik Asli Sragen</li>
+                    <li><i class="ph ph-check-circle"></i> Katun Premium Pilihan</li>
+                    <li><i class="ph ph-check-circle"></i> Garansi Anti Luntur</li>
+                    <li><i class="ph ph-check-circle"></i> Gratis Ongkir Min. Rp 500.000</li>
+                    <li><i class="ph ph-check-circle"></i> Kemasan Aman &amp; Rapi</li>
+                    <li><i class="ph ph-check-circle"></i> Respon WA Cepat &lt; 1 Jam</li>
                 </ul>
             </div>
         </div>
         <div class="footer-bottom container">
-            <p>&copy; 2024 WIRDA BATIK SURAKARTA - Wastra Batik Tradisional Solo. Hak Cipta Dilindungi.</p>
-            <p>Pemesanan Ekspor / Kargo Khusus Malaysia, Brunei, SG, AUS, EUR, JPN.</p>
+            <p>&copy; 2025 ANWAR CAHAYA BATIK — Batik Asli Sragen. Hak Cipta Dilindungi.</p>
+            <p>Made with ♥ untuk pelestarian budaya batik Indonesia</p>
         </div>
     </footer>
+
+    <!-- Floating WA Button -->
+    <a href="https://wa.me/6287726984278?text=Halo%20Anwar%20Cahaya%20Batik%2C%20saya%20ingin%20bertanya%20tentang%20koleksi%20batik%20Anda." class="floating-wa" id="floating-wa-btn" target="_blank" rel="noopener" aria-label="Chat WhatsApp">
+        <i class="ph ph-whatsapp-logo"></i>
+        <span>Chat WA</span>
+    </a>
 
     <script src="script.js"></script>
 </body>
